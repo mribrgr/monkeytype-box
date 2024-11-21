@@ -1,5 +1,5 @@
 <p align="center">
-  <img width=422 src="/.github/preview.jpg">
+  <img width=422 src="https://gist.githubusercontent.com/artemnovichkov/420ad212b0e139e3f79d5e00d1c3fa37/raw/cc6b0527b2bca010e6809eca03763ea9f2fbd33e/image.jpg">
   <h3 align="center">monkeytype-box</h3>
   <p align="center">⌨️ Update a pinned gist with Monkeytype Personal Bests</p>
   <p align="center">
