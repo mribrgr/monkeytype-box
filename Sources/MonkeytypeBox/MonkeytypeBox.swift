@@ -29,7 +29,7 @@ struct MonkeytypeBox: AsyncParsableCommand {
         let (data, _) = try await URLSession.shared.data(for: request)
         let response = try JSONDecoder().decode(PersonalBestsResponse.self, from: data)
 
-        let personalBestsView = await PersonalBestsView(personalBestsResponse: response)
+        let personalBestsView = PersonalBestsView(personalBestsResponse: response)
         let size = CGSize(width: 442, height: 100)
         guard let data = await personalBestsView.makeImageData(size: size) else {
             throw Error.noImageData
