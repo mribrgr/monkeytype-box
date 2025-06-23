@@ -1,7 +1,7 @@
 name: Update gist with Monkeytype Personal Bests
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  # let's goooo!
   push:
     paths-ignore:
       - '**.md'
