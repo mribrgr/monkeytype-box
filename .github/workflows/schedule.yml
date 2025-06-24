@@ -1,12 +1,12 @@
 name: Update gist with Monkeytype Personal Bests
 on:
-  schedule:
-    - cron: "0 0 * * *"
   push:
     paths-ignore:
       - '**.md'
     branches:    
       - main
+  schedule:
+  - cron: "0 */6 * * *"
       
 jobs:
   update-gist:
